@@ -1,0 +1,29 @@
+(make-point x-cor y-cor).
+    This function needs to create a “list” that will have 
+    two elements: x-cor and y-cor. 
+    
+    You will need to use the 'cons' function.
+    
+    Suggested: (get-x point)
+                (get-y point)
+                    using 'car' and 'cdr' functions
+
+(is-line point1 point2 point3). 
+    Using the created points (using make-point)... 
+        true (#t) if the three points form a line 
+        or false (#f) if they form a triangle.
+
+(distance point1 point2). 
+    Calculates the distance between two points
+
+(perimeter point1 point2 point3). 
+    Calculates the *perimeter* of a triangle defined by the three points
+
+(area point1 point2 point3). 
+    Calculates the *area* of a triangle defined by the three points
+
+(calculate-triangle point1 point2 point3). 
+    Using the 3points, Calculates:
+        Perimeter 
+        Area
+        Interior angles 
